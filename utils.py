@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 from collections import defaultdict
-from keras.preprocessing.image import array_to_img, img_to_array
+from tensorflow.keras.utils import array_to_img, img_to_array
 from scipy.ndimage.filters import gaussian_filter
 from scipy.ndimage.interpolation import rotate
 
